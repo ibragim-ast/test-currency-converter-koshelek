@@ -1,0 +1,33 @@
+.converter {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.label {
+  text-align: start;
+  margin-bottom: 0.5em;
+}
+
+.input {
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .form {
+    width: 80%;
+  }
+
+  .input-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
